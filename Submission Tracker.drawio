@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:32:26.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="a-atfqnIzfVmTw56CrTT" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T08:52:49.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="PjNjLQgZEqsZQ3bXmux8" version="20.5.1" type="github" pages="2">
   <diagram id="GTj9qWPxI3njstYWeEmq" name="Login Page">
     <mxGraphModel dx="746" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q1uIloGPO7rh5jIqrkuE" name="Flow Chart">
-    <mxGraphModel dx="933" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,13 +78,12 @@
         <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-7" value="Status terdiri dari &quot;just submitted&quot;, &quot;accepted with revision&quot;, &quot;accepted with major revision&quot;, &quot;accepted with minor revision&quot;, &quot;revise and re-submit&quot;, dan reject" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="210" y="-540" width="191" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0x3XD5P_Aqbbk2VjR6ZD-8">
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.286;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0x3XD5P_Aqbbk2VjR6ZD-8" target="0x3XD5P_Aqbbk2VjR6ZD-67">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="-320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="520" y="-410" />
               <mxPoint x="160" y="-410" />
-              <mxPoint x="160" y="-340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -196,11 +195,31 @@
         <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-63" value="Edit status" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="750" y="-599" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-66" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-320" width="280" height="250" as="geometry" />
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=0;" edge="1" parent="1" source="0x3XD5P_Aqbbk2VjR6ZD-66" target="0x3XD5P_Aqbbk2VjR6ZD-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="-160" />
+              <mxPoint x="440" y="-220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-66" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;noLabel=1;swimlaneHead=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-340" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-67" value="+Title&#xa;+Submitted on dd/mm/yy&#xa;+Status 1 changed on dd/mm/yy (... days)&#xa;+Status 2 on dd/mm/yy (... days)&#xa;+Status 3 on dd/mm/yy (... days)&#xa;.&#xa;.&#xa;.&#xa;+Accepted to be published on &#xa;  dd/mmyy (Vol. ... Issue ...)&#xa;&#xa;This paper has been previously rejected by:&#xa;+journal 1 on dd/mm/dd (__ days after submission)&#xa;+journal 2 on dd/mm/dd (__ days after submission)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="0x3XD5P_Aqbbk2VjR6ZD-66">
-          <mxGeometry y="30" width="280" height="220" as="geometry" />
+          <mxGeometry width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-70" value="Edit status" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="-90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-69" value="Edit status" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-640" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-71" value="Edit Detail" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="-90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;redirect to details of previous submission, with additional detail:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This paper has been previously rejected by:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+journal 1 on dd/mm/yy (__days...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;This paper is now being processed (in review) by dd/mm/dd (_ days since submission)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=0;rounded=1;strokeWidth=2;shadow=0;dashed=0;perimeterSpacing=0;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-350" width="240" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
