@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T07:31:30.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="GnG09EgpjXPgyBxEnUYb" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T07:50:06.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="ivafILbKtIO23HFi2ueh" version="20.5.1" type="github" pages="2">
   <diagram id="GTj9qWPxI3njstYWeEmq" name="Login Page">
     <mxGraphModel dx="746" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,31 +36,47 @@
             <mxPoint x="414" y="-880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-2" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="NANf9atuki4oUWh1lq-u-2" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="-710" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-3" value="Title" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NANf9atuki4oUWh1lq-u-2">
+        <mxCell id="NANf9atuki4oUWh1lq-u-3" value="Title" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="NANf9atuki4oUWh1lq-u-2" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-6" value="Author" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NANf9atuki4oUWh1lq-u-2">
+        <mxCell id="NANf9atuki4oUWh1lq-u-6" value="Author" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="NANf9atuki4oUWh1lq-u-2" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-4" value="Journal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NANf9atuki4oUWh1lq-u-2">
+        <mxCell id="NANf9atuki4oUWh1lq-u-4" value="Journal" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="NANf9atuki4oUWh1lq-u-2" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-7" value="Status" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NANf9atuki4oUWh1lq-u-2">
+        <mxCell id="NANf9atuki4oUWh1lq-u-7" value="Status" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="NANf9atuki4oUWh1lq-u-2" vertex="1">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-5" value="Status date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NANf9atuki4oUWh1lq-u-2">
+        <mxCell id="NANf9atuki4oUWh1lq-u-5" value="Status date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="NANf9atuki4oUWh1lq-u-2" vertex="1">
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NANf9atuki4oUWh1lq-u-6" target="NANf9atuki4oUWh1lq-u-10">
+        <mxCell id="NANf9atuki4oUWh1lq-u-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NANf9atuki4oUWh1lq-u-6" target="NANf9atuki4oUWh1lq-u-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="-630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NANf9atuki4oUWh1lq-u-10" value="Search author using Email or add a new author" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NANf9atuki4oUWh1lq-u-10" value="Search author using Email or add a new author" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="260" y="-700" width="191" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="0x3XD5P_Aqbbk2VjR6ZD-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="-605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-3" value="Search nama jurnal /ISSN atau tambahkan jurnal baru" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-625" width="191" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="0x3XD5P_Aqbbk2VjR6ZD-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="-570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-7" value="Status terdiri dari &quot;just submitted&quot;, &quot;accepted with revision&quot;, &quot;accepted with major revision&quot;, &quot;accepted with minor revision&quot;, &quot;revise and re-submit&quot;, dan reject" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-540" width="191" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
