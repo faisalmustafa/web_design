@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T09:24:04.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="_fiNVf6lMZDNVsfV1Gwt" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-27T09:37:18.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="Efg_ffWWwpGsfqYkkwMI" version="20.5.1" type="github" pages="3">
   <diagram id="GTj9qWPxI3njstYWeEmq" name="Login Page">
     <mxGraphModel dx="746" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,8 +195,8 @@
         <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=0;" edge="1" parent="1" source="0x3XD5P_Aqbbk2VjR6ZD-66" target="0x3XD5P_Aqbbk2VjR6ZD-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="-160" />
-              <mxPoint x="440" y="-220" />
+              <mxPoint x="430" y="-160" />
+              <mxPoint x="430" y="-220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -213,7 +213,7 @@
           <mxGeometry x="227.5" y="-90" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0x3XD5P_Aqbbk2VjR6ZD-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;redirect to details of previous submission, with additional detail:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This paper has been previously rejected by:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+journal 1 on dd/mm/yy (__days...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;This paper is now being processed (in review) by dd/mm/dd (_ days since submission)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;startSize=0;rounded=1;strokeWidth=2;shadow=0;dashed=0;perimeterSpacing=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-350" width="240" height="180" as="geometry" />
+          <mxGeometry x="459.5" y="-310" width="240" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
